@@ -1,0 +1,347 @@
+{
+  "halfcheetah-medium": {
+    "suite": "gym",
+    "arguments": {
+      "env": "halfcheetah",
+      "dataset": "medium",
+      "eta": 5.0,
+      "grad_norm": 15.0,
+      "context_length": 5,
+      "hidden_size": 256,
+      "n_layers": 3,
+      "window_size": 6,
+      "max_iters": 51,
+      "steps_per_iter": 1000
+    }
+  },
+  "halfcheetah-medium-replay": {
+    "suite": "gym",
+    "arguments": {
+      "env": "halfcheetah",
+      "dataset": "medium-replay",
+      "eta": 5.0,
+      "grad_norm": 15.0,
+      "context_length": 5,
+      "hidden_size": 256,
+      "n_layers": 4,
+      "window_size": 6,
+      "max_iters": 51,
+      "steps_per_iter": 1000
+    }
+  },
+  "halfcheetah-medium-expert": {
+    "suite": "gym",
+    "arguments": {
+      "env": "halfcheetah",
+      "dataset": "medium-expert",
+      "eta": 0.4,
+      "grad_norm": 15.0,
+      "context_length": 8,
+      "hidden_size": 256,
+      "n_layers": 3,
+      "window_size": 6,
+      "max_iters": 10,
+      "steps_per_iter": 10000
+    }
+  },
+  "hopper-medium": {
+    "suite": "gym",
+    "arguments": {
+      "env": "hopper",
+      "dataset": "medium",
+      "eta": 1.0,
+      "grad_norm": 9.0,
+      "context_length": 5,
+      "hidden_size": 256,
+      "n_layers": 4,
+      "window_size": 6,
+      "max_iters": 51,
+      "steps_per_iter": 1000
+    }
+  },
+  "hopper-medium-replay": {
+    "suite": "gym",
+    "arguments": {
+      "env": "hopper",
+      "dataset": "medium-replay",
+      "eta": 3.0,
+      "grad_norm": 9.0,
+      "context_length": 5,
+      "hidden_size": 256,
+      "n_layers": 4,
+      "window_size": 6,
+      "max_iters": 51,
+      "steps_per_iter": 1000
+    }
+  },
+  "hopper-medium-expert": {
+    "suite": "gym",
+    "arguments": {
+      "env": "hopper",
+      "dataset": "medium-expert",
+      "eta": 5.0,
+      "grad_norm": 9.0,
+      "context_length": 8,
+      "hidden_size": 128,
+      "n_layers": 4,
+      "window_size": 6,
+      "max_iters": 51,
+      "steps_per_iter": 1000
+    }
+  },
+  "walker2d-medium": {
+    "suite": "gym",
+    "arguments": {
+      "env": "walker2d",
+      "dataset": "medium",
+      "eta": 2.0,
+      "grad_norm": 5.0,
+      "context_length": 8,
+      "hidden_size": 256,
+      "n_layers": 4,
+      "window_size": 6,
+      "max_iters": 51,
+      "steps_per_iter": 1000
+    }
+  },
+  "walker2d-medium-replay": {
+    "suite": "gym",
+    "arguments": {
+      "env": "walker2d",
+      "dataset": "medium-replay",
+      "eta": 2.0,
+      "grad_norm": 5.0,
+      "context_length": 70,
+      "hidden_size": 128,
+      "n_layers": 4,
+      "window_size": 6,
+      "max_iters": 51,
+      "steps_per_iter": 1000
+    }
+  },
+  "walker2d-medium-expert": {
+    "suite": "gym",
+    "arguments": {
+      "env": "walker2d",
+      "dataset": "medium-expert",
+      "eta": 2.0,
+      "grad_norm": 5.0,
+      "context_length": 8,
+      "hidden_size": 256,
+      "n_layers": 4,
+      "window_size": 6,
+      "max_iters": 51,
+      "steps_per_iter": 1000
+    }
+  },
+  "maze2d-open": {
+    "suite": "maze2d",
+    "arguments": {
+      "env": "maze2d",
+      "dataset": "open",
+      "eta": 0.01,
+      "grad_norm": 9.0,
+      "context_length": 8,
+      "hidden_size": 128,
+      "n_layers": 4,
+      "window_size": 6,
+      "max_iters": 51,
+      "steps_per_iter": 1000
+    }
+  },
+  "maze2d-umaze": {
+    "suite": "maze2d",
+    "arguments": {
+      "env": "maze2d",
+      "dataset": "umaze",
+      "eta": 5.0,
+      "grad_norm": 9.0,
+      "context_length": 8,
+      "hidden_size": 256,
+      "n_layers": 3,
+      "window_size": 6,
+      "max_iters": 100,
+      "steps_per_iter": 1000
+    }
+  },
+  "maze2d-medium": {
+    "suite": "maze2d",
+    "arguments": {
+      "env": "maze2d",
+      "dataset": "medium",
+      "eta": 5.0,
+      "grad_norm": 9.0,
+      "context_length": 20,
+      "hidden_size": 256,
+      "n_layers": 3,
+      "window_size": 6,
+      "max_iters": 51,
+      "steps_per_iter": 1000
+    }
+  },
+  "maze2d-large": {
+    "suite": "maze2d",
+    "arguments": {
+      "env": "maze2d",
+      "dataset": "large",
+      "eta": 5.0,
+      "grad_norm": 9.0,
+      "context_length": 8,
+      "hidden_size": 256,
+      "n_layers": 3,
+      "window_size": 6,
+      "max_iters": 51,
+      "steps_per_iter": 1000
+    }
+  },
+  "maze2d-open-dense": {
+    "suite": "maze2d",
+    "arguments": {
+      "env": "maze2d",
+      "dataset": "open-dense",
+      "eta": 0.01,
+      "grad_norm": 9.0,
+      "context_length": 8,
+      "hidden_size": 128,
+      "n_layers": 4,
+      "window_size": 6,
+      "max_iters": 51,
+      "steps_per_iter": 1000
+    }
+  },
+  "maze2d-umaze-dense": {
+    "suite": "maze2d",
+    "arguments": {
+      "env": "maze2d",
+      "dataset": "umaze-dense",
+      "eta": 3.0,
+      "grad_norm": 9.0,
+      "context_length": 8,
+      "hidden_size": 128,
+      "n_layers": 4,
+      "window_size": 6,
+      "max_iters": 51,
+      "steps_per_iter": 1000
+    }
+  },
+  "maze2d-medium-dense": {
+    "suite": "maze2d",
+    "arguments": {
+      "env": "maze2d",
+      "dataset": "medium-dense",
+      "eta": 5.0,
+      "grad_norm": 9.0,
+      "context_length": 8,
+      "hidden_size": 128,
+      "n_layers": 4,
+      "window_size": 6,
+      "max_iters": 51,
+      "steps_per_iter": 1000
+    }
+  },
+  "maze2d-large-dense": {
+    "suite": "maze2d",
+    "arguments": {
+      "env": "maze2d",
+      "dataset": "large-dense",
+      "eta": 4.0,
+      "grad_norm": 9.0,
+      "context_length": 8,
+      "hidden_size": 128,
+      "n_layers": 4,
+      "window_size": 6,
+      "max_iters": 51,
+      "steps_per_iter": 1000
+    }
+  },
+  "pen-human": {
+    "suite": "adroit",
+    "arguments": {
+      "env": "pen",
+      "dataset": "human",
+      "eta": 0.1,
+      "grad_norm": 9.0,
+      "context_length": 8,
+      "hidden_size": 256,
+      "n_layers": 4,
+      "window_size": 6,
+      "max_iters": 51,
+      "steps_per_iter": 1000
+    }
+  },
+  "pen-cloned": {
+    "suite": "adroit",
+    "arguments": {
+      "env": "pen",
+      "dataset": "cloned",
+      "eta": 0.1,
+      "grad_norm": 9.0,
+      "context_length": 8,
+      "hidden_size": 128,
+      "n_layers": 4,
+      "window_size": 6,
+      "max_iters": 51,
+      "steps_per_iter": 1000
+    }
+  },
+  "hammer-human": {
+    "suite": "adroit",
+    "arguments": {
+      "env": "hammer",
+      "dataset": "human",
+      "eta": 0.1,
+      "grad_norm": 5.0,
+      "context_length": 8,
+      "hidden_size": 128,
+      "n_layers": 4,
+      "window_size": 6,
+      "max_iters": 61,
+      "steps_per_iter": 1000
+    }
+  },
+  "hammer-cloned": {
+    "suite": "adroit",
+    "arguments": {
+      "env": "hammer",
+      "dataset": "cloned",
+      "eta": 0.01,
+      "grad_norm": 9.0,
+      "context_length": 8,
+      "hidden_size": 128,
+      "n_layers": 4,
+      "window_size": 6,
+      "max_iters": 31,
+      "steps_per_iter": 1000
+    }
+  },
+  "door-human": {
+    "suite": "adroit",
+    "arguments": {
+      "env": "door",
+      "dataset": "human",
+      "eta": 0.005,
+      "grad_norm": 9.0,
+      "context_length": 8,
+      "hidden_size": 128,
+      "n_layers": 4,
+      "window_size": 6,
+      "max_iters": 61,
+      "steps_per_iter": 1000
+    }
+  },
+  "door-cloned": {
+    "suite": "adroit",
+    "arguments": {
+      "env": "door",
+      "dataset": "cloned",
+      "eta": 0.001,
+      "grad_norm": 9.0,
+      "context_length": 8,
+      "hidden_size": 128,
+      "n_layers": 4,
+      "window_size": 6,
+      "max_iters": 61,
+      "steps_per_iter": 1000
+    }
+  }
+}

@@ -1,0 +1,45 @@
+[build-system]
+requires = ["setuptools>=77", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "qdc-offline-rl"
+version = "0.1.0"
+description = "Q-value Regularized Decision ConvFormer for Offline Reinforcement Learning"
+readme = "README.md"
+requires-python = ">=3.10"
+license = "Apache-2.0"
+license-files = ["LICENSE", "NOTICE", "third_party/*.txt"]
+authors = [
+  {name = "Teng Yan"}, {name = "Zhendong Ruan"}, {name = "Yaobang Cai"},
+  {name = "Yu Han"}, {name = "Wenxian Li"}, {name = "Yang Zhang"},
+]
+dependencies = ["numpy>=1.23,<2", "torch>=2.0,<3"]
+
+[project.optional-dependencies]
+dev = ["pytest>=7", "ruff>=0.6", "build>=1"]
+
+[project.urls]
+Paper = "https://arxiv.org/abs/2409.08062"
+Repository = "https://github.com/zd-Ruan/QDC"
+Issues = "https://github.com/zd-Ruan/QDC/issues"
+
+[project.scripts]
+qdc-train = "qdc.train:main"
+qdc-evaluate = "qdc.evaluate:main"
+qdc-prepare-data = "qdc.prepare_data:main"
+
+[tool.setuptools.packages.find]
+include = ["qdc*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"
+
+[tool.ruff]
+target-version = "py310"
+line-length = 100
+extend-exclude = [".local", "D4RL", "save", "dist"]
+
+[tool.ruff.lint]
+select = ["E4", "E7", "E9", "F", "I"]

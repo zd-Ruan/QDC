@@ -1,0 +1,31 @@
+# Local research material; never included in the source release.
+.local/
+D4RL/
+save/
+data/
+runs/
+*.pkl
+*.hdf5
+*.h5
+*.pth
+*.pt
+2409.08062v1.pdf
+
+# Python and development tools
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.venv/
+venv/
+build/
+dist/
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+.env
+.env.*

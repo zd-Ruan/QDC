@@ -1,0 +1,40 @@
+cff-version: 1.2.0
+message: "If you use QDC in your research, please cite the paper below."
+type: software
+title: "QDC: Q-value Regularized Decision ConvFormer for Offline Reinforcement Learning"
+version: 0.1.0
+repository-code: "https://github.com/zd-Ruan/QDC"
+license: Apache-2.0
+authors:
+  - family-names: Yan
+    given-names: Teng
+  - family-names: Ruan
+    given-names: Zhendong
+  - family-names: Cai
+    given-names: Yaobang
+  - family-names: Han
+    given-names: Yu
+  - family-names: Li
+    given-names: Wenxian
+  - family-names: Zhang
+    given-names: Yang
+preferred-citation:
+  type: article
+  title: "Q-value Regularized Decision ConvFormer for Offline Reinforcement Learning"
+  authors:
+    - family-names: Yan
+      given-names: Teng
+    - family-names: Ruan
+      given-names: Zhendong
+    - family-names: Cai
+      given-names: Yaobang
+    - family-names: Han
+      given-names: Yu
+    - family-names: Li
+      given-names: Wenxian
+    - family-names: Zhang
+      given-names: Yang
+  year: 2024
+  journal: arXiv
+  doi: 10.48550/arXiv.2409.08062
+  url: "https://arxiv.org/abs/2409.08062"

@@ -1,0 +1,4 @@
+include LICENSE NOTICE THIRD_PARTY_NOTICES.md CITATION.cff README.zh-CN.md requirements*.txt
+recursive-include third_party *.txt
+recursive-include docs *.md
+recursive-include configs *.json

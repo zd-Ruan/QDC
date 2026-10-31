@@ -1,0 +1,31 @@
+QDC: Q-value Regularized Decision ConvFormer for Offline Reinforcement Learning
+
+This source release contains modified and reorganized code adapted from:
+
+  QT - Q-value Regularized Transformer for Offline Reinforcement Learning
+  Shengchao Hu, Ziqing Fan, Chaoqin Huang, Li Shen, Ya Zhang,
+  Yanfeng Wang, and Dacheng Tao
+  https://github.com/charleshsc/QT
+  Apache License 2.0
+
+  Decision ConvFormer
+  https://github.com/beanie00/Decision-ConvFormer
+  Copyright (c) 2023 Decision ConvFormer (Decision ConvFormer: Local Filtering
+  in MetaFormer is Sufficient for Decision Making) Authors
+  MIT License; full notice in third_party/decision-convformer-LICENSE.txt
+
+  Decision Transformer
+  https://github.com/kzl/decision-transformer
+  Copyright (c) 2021 Decision Transformer (Decision Transformer:
+  Reinforcement Learning via Sequence Modeling) Authors
+  MIT License; full notice in third_party/decision-transformer-LICENSE.txt
+
+The original QT code also acknowledges Diffusion-QL:
+  https://github.com/Zhendong-Wang/Diffusion-Policies-for-Offline-RL
+  Apache License 2.0
+
+Modifications in this QDC release include a standalone PyTorch convolutional
+policy, modular data/training/evaluation code, device-independent execution,
+explicit multi-step targets, self-contained checkpoints, documentation, and tests.
+
+These attributions identify upstream work and do not imply upstream endorsement.
