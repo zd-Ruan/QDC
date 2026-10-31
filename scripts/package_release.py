@@ -20,8 +20,8 @@ FILES = (
     "train.py",
     "evaluate.py",
 )
-DIRECTORIES = ("qdc", "scripts", "configs", "docs", "tests", "third_party", ".github")
-SUFFIXES = {".py", ".md", ".json", ".yml", ".yaml", ".txt"}
+DIRECTORIES = ("qdc", "scripts", "configs", "docs", "tests", "third_party", "assets", ".github")
+SUFFIXES = {".py", ".md", ".json", ".yml", ".yaml", ".txt", ".png"}
 
 
 def source_files():
